@@ -1,0 +1,64 @@
+<style>
+   body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  margin: 12px 0;
+}
+.card-container {
+  cursor: pointer;
+  height: 150px;
+  perspective: 600;
+  position: relative;
+  width: 150px;
+}
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  border-radius: 6px;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+}
+.card .back {
+  background: #eaeaed;
+  color: #0087cc;
+  line-height: 150px;
+  text-align: center;
+  transform: rotateY(180deg);
+} 
+    img { max-width:150px;
+        max-height: 150px;
+    } 
+    
+    
+    h1 {font-family: "https://fontmeme.com/ixnay-on-the-hombre-font/";
+        text-align: center;
+        font-size: 48px;
+        color: red;
+        background-color: aqua;
+        line-height: 100px}
+    
+    table{margin-left: 12%;}
+    
+    td{padding-left: 150px}
+    
+    h2 {font-family: "https://fontmeme.com/ixnay-on-the-hombre-font/";
+        margin-left: 3%;
+        color: dodgerblue;
+        font-size: 36px;
+    }
+    
+    footer {font-size:8px}
+    
+    a {font-size: 18px;}
+    
+    </style> 
